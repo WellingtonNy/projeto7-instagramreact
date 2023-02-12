@@ -1,81 +1,24 @@
-export default function Stories(){
-    return(
-        <div class="stories">
-            <div class="story">
-              <div class="imagem">
-                <img src="assets/img/9gag.svg" alt="9gag"/>
-              </div>
-              <div class="usuario">
-                9gag
-              </div>
-            </div>
-        
-            <div class="story">
-              <div class="imagem">
-                <img src="assets/img/meowed.svg" alt="meowed"/>
-              </div>
-              <div class="usuario">
-                meowed
-              </div>
-            </div>
-        
-            <div class="story">
-              <div class="imagem">
-                <img src="assets/img/barked.svg" alt="barked"/>
-              </div>
-              <div class="usuario">
-                barked
-              </div>
-            </div>
-        
-            <div class="story">
-              <div class="imagem">
-                <img src="assets/img/nathanwpylestrangeplanet.svg" alt="nathanwpylestrangeplanet"/>
-              </div>
-              <div class="usuario">
-                nathanwpylestrangeplanet
-              </div>
-            </div>
-        
-            <div class="story">
-              <div class="imagem">
-                <img src="assets/img/wawawicomics.svg" alt="wawawicomics"/>
-              </div>
-              <div class="usuario">
-                wawawicomics
-              </div>
-            </div>
-        
-            <div class="story">
-              <div class="imagem">
-                <img src="assets/img/respondeai.svg" alt="respondeai"/>
-              </div>
-              <div class="usuario">
-                respondeai
-              </div>
-            </div>
-        
-            <div class="story">
-              <div class="imagem">
-                <img src="assets/img/filomoderna.svg" alt="filomoderna"/>
-              </div>
-              <div class="usuario">
-                filomoderna
-              </div>
-            </div>
-        
-            <div class="story">
-              <div class="imagem">
-                <img src="assets/img/memeriagourmet.svg" alt="memeriagourmet"/>
-              </div>
-              <div class="usuario">
-                memeriagourmet
-              </div>
-            </div>
-        
-            <div class="setinha">
-              <ion-icon name="chevron-forward-circle"></ion-icon>
-            </div>
-          </div>
-    )
+import Story from "./Story"
+export default function Stories() {
+
+
+  const dadosStories = [
+    { imagemStories: "assets/img/9gag.svg", nomeStories: '9gag' },
+    { imagemStories: "assets/img/meowed.svg", nomeStories: "meowed" },
+    { imagemStories: "assets/img/barked.svg", nomeStories: "barked" },
+    { imagemStories: "assets/img/nathanwpylestrangeplanet.svg", nomeStories: "nathanwpylestrangeplanet" },
+    { imagemStories: "assets/img/wawawicomics.svg", nomeStories: "wawawicomics" },
+    { imagemStories: "assets/img/respondeai.svg", nomeStories: "respondeai" },
+    { imagemStories: "assets/img/filomoderna.svg", nomeStories: "filomoderna" },
+    { imagemStories: "assets/img/memeriagourmet.svg", nomeStories: "memeriagourmet" }]
+
+
+  return (
+    <div class="stories">
+      {dadosStories.map((Sto) => <Story imagem={Sto.imagemStories} nome={Sto.nomeStories} />)}
+      <div class="setinha">
+        <ion-icon name="chevron-forward-circle"></ion-icon>
+      </div>
+    </div>
+  )
 }
