@@ -11,7 +11,7 @@ export default function Usuario(props) {
 
   function alterarFoto() {
     let foto = prompt('Insira o Url da foto');
-    foto ? setImg(foto) : alert("Url Inválido")
+    foto ? setImg(foto) : alert("Url Inválido");
   }
 
   return (
