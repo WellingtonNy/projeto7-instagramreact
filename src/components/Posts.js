@@ -18,7 +18,15 @@ export default function Posts(){
     imgCurtir:"assets/img/adorable_animals.svg",
     nomeCurtir:"adorable_animals",
     curtidas:99159
-    }
+    },
+    
+    {imgUsuario:"assets/img/9gag.svg",
+    nomeUsuario:"9gag",
+    imgPost:"assets/img/post3.jpg",
+    nomePost:"Rainbow Dash",
+    imgCurtir:"assets/img/respondeai.svg",
+    nomeCurtir:"respondeai",
+    curtidas:133742}
 ]
 
 
