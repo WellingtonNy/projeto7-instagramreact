@@ -3,5 +3,5 @@ export default function IconesMobile(){
         <div class="icones-mobile">
           <ion-icon name="paper-plane-outline"></ion-icon>
         </div>
-    )
-};
+    );
+}

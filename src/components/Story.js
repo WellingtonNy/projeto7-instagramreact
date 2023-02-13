@@ -8,5 +8,5 @@ return(
         {props.nome}
         </div>
       </div>
-)
-};
+);
+}

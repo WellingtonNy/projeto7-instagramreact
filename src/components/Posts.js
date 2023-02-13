@@ -36,5 +36,5 @@ export default function Posts(){
             imgPost={p.imgPost}   nomePost={p.nomePost}   imgLike={p.imgCurtir}
             nomeLike={p.nomeCurtir}   numLike={p.curtidas} />)}
           </div>
-    )
-};
+    );
+}

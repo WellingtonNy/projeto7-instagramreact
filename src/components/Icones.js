@@ -6,5 +6,5 @@ export default function Icones(){
           <ion-icon name="heart-outline"></ion-icon>
           <ion-icon name="person-outline"></ion-icon>
         </div>
-    )
-};
+    );
+}

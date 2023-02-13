@@ -8,8 +8,7 @@ export default function Sugestao(props){
                   <div class="razao">{props.razao}</div>
                 </div>
               </div>
-              
               <div class="seguir">Seguir</div>
             </div>
-    )
-};
+    );
+}

@@ -20,5 +20,5 @@ export default function Stories() {
         <ion-icon name="chevron-forward-circle"></ion-icon>
       </div>
     </div>
-  )
-};
+  );
+}

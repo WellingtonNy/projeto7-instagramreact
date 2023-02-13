@@ -5,5 +5,5 @@ export default function Logo(){
           <div class="separador"></div>
           <img src="assets/img/logo.png"alt="logo"/>
         </div>
-    )
-};
+    );
+}

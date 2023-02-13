@@ -15,5 +15,5 @@ export default function Sugestoes() {
       </div>
       {suges.map((sug) => <Sugestao img={sug.img} nome={sug.nome} razao={sug.razao} />)}
     </div>
-  )
-};
+  );
+}

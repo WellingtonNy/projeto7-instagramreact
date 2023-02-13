@@ -10,8 +10,8 @@ export default function NavBar(){
         <Logo />
         <Pesquisa />
         <Icones />
-        <IconesMobile /> 
+        <IconesMobile />
       </div>
     </div>
-    )
-};
+    );
+}

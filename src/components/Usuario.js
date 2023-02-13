@@ -24,5 +24,5 @@ export default function Usuario(props) {
         </span>
       </div>
     </div>
-  )
-};
+  );
+}

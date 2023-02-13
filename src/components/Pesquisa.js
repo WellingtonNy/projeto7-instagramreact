@@ -4,5 +4,5 @@ export default function Pesquisa(){
         <input type="text" placeholder="Pesquisar" />
       </div>
 
-    )
-};
+    );
+}
