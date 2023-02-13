@@ -1,4 +1,4 @@
-import Post from "./Post"
+import Post from "./Post";
 export default function Posts(){
 
 
@@ -19,7 +19,7 @@ export default function Posts(){
     nomeCurtir:"adorable_animals",
     curtidas:99159
     },
-    
+
     {imgUsuario:"assets/img/9gag.svg",
     nomeUsuario:"9gag",
     imgPost:"assets/img/post3.jpg",
@@ -27,7 +27,7 @@ export default function Posts(){
     imgCurtir:"assets/img/respondeai.svg",
     nomeCurtir:"respondeai",
     curtidas:133742}
-]
+  ];
 
 
     return(
@@ -37,4 +37,4 @@ export default function Posts(){
             nomeLike={p.nomeCurtir}   numLike={p.curtidas} />)}
           </div>
     )
-}
+};

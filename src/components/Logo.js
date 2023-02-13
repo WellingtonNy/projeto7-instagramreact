@@ -6,4 +6,4 @@ export default function Logo(){
           <img src="assets/img/logo.png"alt="logo"/>
         </div>
     )
-}
+};

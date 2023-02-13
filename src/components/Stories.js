@@ -1,4 +1,4 @@
-import Story from "./Story"
+import Story from "./Story";
 export default function Stories() {
 
 
@@ -10,7 +10,7 @@ export default function Stories() {
     { img: "assets/img/wawawicomics.svg", name: "wawawicomics" },
     { img: "assets/img/respondeai.svg", name: "respondeai" },
     { img: "assets/img/filomoderna.svg", name: "filomoderna" },
-    { img: "assets/img/memeriagourmet.svg", name: "memeriagourmet" }]
+    { img: "assets/img/memeriagourmet.svg", name: "memeriagourmet" }];
 
 
   return (
@@ -21,4 +21,4 @@ export default function Stories() {
       </div>
     </div>
   )
-}
+};

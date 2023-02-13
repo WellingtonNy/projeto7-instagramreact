@@ -1,16 +1,16 @@
-import React from "react"
+import React from "react";
 export default function Usuario(props) {
 
-  const [img, setImg] = React.useState(props.imgUsuario)
-  const [nome, setNome] = React.useState(props.nomeUsuario)
+  const [img, setImg] = React.useState(props.imgUsuario);
+  const [nome, setNome] = React.useState(props.nomeUsuario);
 
   function alterarNome() {
-    let nome = prompt('Digite seu nome =^.^=');
+    const nome = prompt('Digite seu nome =^.^=');
     nome ? setNome(nome) : alert("Nome Inválido!");
   }
 
   function alterarFoto() {
-    let foto = prompt('Insira o Url da foto');
+    const foto = prompt('Insira o Url da foto');
     foto ? setImg(foto) : alert("Url Inválido");
   }
 
@@ -25,4 +25,4 @@ export default function Usuario(props) {
       </div>
     </div>
   )
-}
+};

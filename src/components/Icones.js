@@ -7,4 +7,4 @@ export default function Icones(){
           <ion-icon name="person-outline"></ion-icon>
         </div>
     )
-}
+};

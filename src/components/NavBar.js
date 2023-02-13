@@ -1,17 +1,17 @@
-import Logo from "./Logo"
-import Pesquisa from "./Pesquisa"
-import Icones from "./Icones"
-import IconesMobile from "./IconesMobile"
+import Logo from "./Logo";
+import Pesquisa from "./Pesquisa";
+import Icones from "./Icones";
+import IconesMobile from "./IconesMobile";
 
 export default function NavBar(){
-    return(
+    return (
     <div class="navbar">
       <div class="container">
         <Logo />
         <Pesquisa />
         <Icones />
-        <IconesMobile />  
+        <IconesMobile /> 
       </div>
     </div>
     )
-}
+};
